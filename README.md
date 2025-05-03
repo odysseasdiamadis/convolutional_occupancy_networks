@@ -1,4 +1,8 @@
 # Convolutional Occupancy Networks
+
+## NOTE
+This fork fixes some compatibility issues for outdated packages. Not meant for distribution. Use with caution
+
 [**Paper**](https://arxiv.org/pdf/2003.04618.pdf) | [**Supplementary**](http://www.cvlibs.net/publications/Peng2020ECCV_supplementary.pdf) | [**Video**](https://www.youtube.com/watch?v=EmauovgrDSM) | [**Teaser Video**](https://youtu.be/k0monzIcjUo) | [**Project Page**](https://pengsongyou.github.io/conv_onet) | [**Blog Post**](https://autonomousvision.github.io/convolutional-occupancy-networks/) <br>
 
 <div style="text-align: center">
