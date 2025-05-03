@@ -85,7 +85,7 @@ ext_modules = [
 ]
 
 setup(
-    ext_modules=cythonize(ext_modules),
+    ext_modules=cythonize(ext_modules, language_level="3"),
     cmdclass={
         'build_ext': BuildExtension
     }
