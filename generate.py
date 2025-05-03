@@ -206,6 +206,10 @@ time_df = pd.DataFrame(time_dicts)
 time_df.set_index(['idx'], inplace=True)
 time_df.to_pickle(out_time_file)
 
+numeric_cols = ['mesh', 'time (marching cubes)', 'class name']
+for col in numeric_cols:
+    time_df[col] = pd.to_numeric(time_df[col], errors='coerce')
+
 # Create pickle files  with main statistics
 time_df_class = time_df.groupby(by=['class name']).mean()
 time_df_class.to_pickle(out_time_file_class)
